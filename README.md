@@ -9,4 +9,5 @@ You can set it up easily in IntelliJ by adding a remote repository in Minecraft 
 2. Add a remote repository  
 3. Click Edit and Set the **Download URL** to:  
    `https://github.com/radimous/vault-hunters-addon-template-for-mcdev/archive/refs/heads/v1.zip`
-
+   
+<img width="620" height="406" alt="mcdev-ss" src="https://github.com/user-attachments/assets/ff1e12b2-8eb2-4168-bc7a-20626c49dbd4" />
