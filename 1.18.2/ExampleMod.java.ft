@@ -1,0 +1,14 @@
+package ${MAIN_CLASS.packageName};
+
+import com.mojang.logging.LogUtils;
+import net.minecraftforge.fml.common.Mod;
+import org.slf4j.Logger;
+
+@Mod(${MAIN_CLASS.className}.MOD_ID)
+public class ${MAIN_CLASS.className} {
+
+    public static final String MOD_ID = "${MOD_ID}";
+    public static final Logger LOGGER = LogUtils.getLogger();
+    public ${MAIN_CLASS.className}() {
+    }
+}

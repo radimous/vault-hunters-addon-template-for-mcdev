@@ -1,0 +1,36 @@
+org.gradle.jvmargs=-Xmx3G
+org.gradle.daemon=false
+
+minecraft_version=1.18.2
+minecraft_version_range=[1.18.2,1.19)
+
+forge_version=${VERSIONS.forge}
+forge_version_range=[40,)
+loader_version_range=[40,)
+
+mapping_channel=parchment
+mapping_version=2022.11.06-1.18.2
+
+
+# The unique mod identifier for the mod. Must be lowercase in English locale. Must fit the regex [a-z][a-z0-9_]{1,63}
+# Must match the String constant located in the main mod class annotated with @Mod.
+mod_id=${MOD_ID}
+# The human-readable display name for the mod.
+mod_name=${MOD_NAME}
+# The description of the mod. This is a simple multiline text string that is used for display purposes in the mod list.
+mod_description=${DESCRIPTION}
+# The mod version. See https://semver.org/
+mod_version=${BUILD_COORDS.version}
+# The group ID for the mod. It is only important when publishing as an artifact to a Maven repository.
+# This should match the base package used for the mod sources.
+# See https://maven.apache.org/guides/mini/guide-naming-conventions.html
+mod_group_id=${BUILD_COORDS.groupId}
+# The authors of the mod. This is a simple text string that is used for display purposes in the mod list.
+mod_authors=${AUTHORS}
+# The license of the mod. Review your options at https://choosealicense.com/. All Rights Reserved is the default.
+mod_license=${LICENSE.id}
+
+# vault mod version (build 5702), get the latest from https://www.curseforge.com/minecraft/mc-mods/vault-hunters-official-mod/files/all
+vault_hunters_version=7110405
+# vault pack url (v3.19.6.4), get the latest from https://www.curseforge.com/minecraft/modpacks/vault-hunters-1-18-2/files
+vault_pack_url=https://mediafilez.forgecdn.net/files/7110/470/Vault%20Hunters%20Official%20Pack%20%283rd%20Ed.%29-3.19.6.4.zip
