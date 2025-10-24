@@ -15,9 +15,11 @@ You can set it up easily in IntelliJ by adding a remote repository in Minecraft 
 
 ## How to use
 
-1. Create new project
+1. Create new project  
+   <img width="569" height="770" alt="obrazek" src="https://github.com/user-attachments/assets/2dbc93b0-0a46-4586-ad89-aac7bc39669f" />
 2. Wait until project setup finishes
-3. run `getVaultConfigs` gradle task to pull get vault configs
+3. run `getVaultConfigs` gradle task to get vault configs  
+   <img width="394" height="444" alt="obrazek" src="https://github.com/user-attachments/assets/60d70675-86e7-4e61-b054-9e2865b80f5f" />
 4. Launch the game with `runClient` task or build the jar with `build` task
 
 
