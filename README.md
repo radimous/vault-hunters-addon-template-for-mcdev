@@ -23,7 +23,7 @@ You can set it up easily in IntelliJ by adding a remote repository in Minecraft 
 4. Launch the game with `runClient` task or build the jar with `build` task
 
 
-## MixinExtras
+### MixinExtras
 you can uncomment
 ```
 implementation(jarJar("io.github.llamalad7:mixinextras-forge:0.4.1")) {
