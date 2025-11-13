@@ -19,7 +19,9 @@
       "type": "string",
       "validator": "[a-z][a-z0-9-_]{1,63}",
       "derives": {
-        "parents": ["PROJECT_NAME"],
+        "parents": [
+          "PROJECT_NAME"
+        ],
         "method": "replace",
         "parameters": {
           "regex": "[^a-z0-9-_]+",
@@ -38,7 +40,10 @@
       "name": "MAIN_CLASS",
       "type": "class_fqn",
       "derives": {
-        "parents": ["BUILD_COORDS", "MOD_ID"],
+        "parents": [
+          "BUILD_COORDS",
+          "MOD_ID"
+        ],
         "method": "suggestClassName"
       }
     },
@@ -100,6 +105,10 @@
       "destination": "settings.gradle"
     },
     {
+      "template": "vault-configs.gradle.ft",
+      "destination": "vault-configs.gradle"
+    },
+    {
       "template": "gradle.properties.ft",
       "destination": "gradle.properties"
     },
@@ -130,7 +139,10 @@
     },
     {
       "type": "run_gradle_tasks",
-      "tasks": ["wrapper", "genIntellijRuns"]
+      "tasks": [
+        "wrapper",
+        "genIntellijRuns"
+      ]
     },
     {
       "type": "git_add_all",
