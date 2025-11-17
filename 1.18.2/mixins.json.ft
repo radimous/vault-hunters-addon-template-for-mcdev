@@ -1,9 +1,9 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "${MAIN_CLASS.packageName}.mixin",
+  "package": "${MAIN_CLASS_MOD_ID.packageName}.mixin",
   "compatibilityLevel": "JAVA_17",
-  "refmap": "${MAIN_CLASS.packageName}.refmap.json",
+  "refmap": "${MAIN_CLASS_MOD_ID.packageName}.refmap.json",
   "mixins": [
   ],
   "client": [

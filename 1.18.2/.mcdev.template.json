@@ -42,10 +42,23 @@
       "derives": {
         "parents": [
           "BUILD_COORDS",
+          "MOD_NAME"
+        ],
+        "method": "suggestClassName"
+      },
+      "visible": false
+    },
+    {
+      "name": "MAIN_CLASS_MOD_ID",
+      "type": "class_fqn",
+      "derives": {
+        "parents": [
+          "BUILD_COORDS",
           "MOD_ID"
         ],
         "method": "suggestClassName"
-      }
+      },
+      "visible": false
     },
     {
       "name": "LICENSE",
@@ -126,7 +139,7 @@
     },
     {
       "template": "ExampleMod.java.ft",
-      "destination": "src/main/java/${MAIN_CLASS.path}.java"
+      "destination": "src/main/java/${MAIN_CLASS_MOD_ID.packagePath}/${MAIN_CLASS.className}.java"
     },
     {
       "template": "mods.toml.ft",

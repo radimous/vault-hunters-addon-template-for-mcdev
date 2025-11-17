@@ -1,4 +1,4 @@
-package ${MAIN_CLASS.packageName};
+package ${MAIN_CLASS_MOD_ID.packageName};
 
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.fml.common.Mod;
