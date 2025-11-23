@@ -8,7 +8,6 @@ def runDir = file("run")
 def allowedNamespaces = ["minecraft:", "the_vault:"]
 
 tasks.register('checkEmptyConfigDirs') {
-    dependsOn 'checkEmptyConfigDirs'
     def runConfig = file("${runDir}/config")
     def runDefaults = file("${runDir}/defaultconfigs")
 
@@ -24,6 +23,7 @@ tasks.register('checkEmptyConfigDirs') {
 }
 
 tasks.register('downloadZip') {
+    dependsOn 'checkEmptyConfigDirs'
     doLast {
         zipFile.parentFile.mkdirs()
 
