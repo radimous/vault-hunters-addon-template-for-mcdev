@@ -30,7 +30,8 @@ mod_authors=${AUTHORS}
 # The license of the mod. Review your options at https://choosealicense.com/. All Rights Reserved is the default.
 mod_license=${LICENSE.id}
 
-# vault mod version (build 5702), get the latest from https://www.curseforge.com/minecraft/mc-mods/vault-hunters-official-mod/files/all
+# vault versions can be updated with updateVaultVersion gradle task or manually from the urls below
+# vault mod version, get the latest from https://www.curseforge.com/minecraft/mc-mods/vault-hunters-official-mod/files/all
 vault_hunters_version=7110405
-# vault pack url (v3.19.6.4), get the latest from https://www.curseforge.com/minecraft/modpacks/vault-hunters-1-18-2/files
+# vault pack url (for config fetching), get the latest from https://www.curseforge.com/minecraft/modpacks/vault-hunters-1-18-2/files
 vault_pack_url=https://mediafilez.forgecdn.net/files/7110/470/Vault%20Hunters%20Official%20Pack%20%283rd%20Ed.%29-3.19.6.4.zip
