@@ -32,6 +32,6 @@ mod_license=${LICENSE.id}
 
 # vault versions can be updated with updateVaultVersion gradle task or manually from the urls below
 # vault mod version, get the latest from https://www.curseforge.com/minecraft/mc-mods/vault-hunters-official-mod/files/all
-vault_hunters_version=7110405
+vault_hunters_version=7354454
 # vault pack url (for config fetching), get the latest from https://www.curseforge.com/minecraft/modpacks/vault-hunters-1-18-2/files
-vault_pack_url=https://mediafilez.forgecdn.net/files/7110/470/Vault%20Hunters%20Official%20Pack%20%283rd%20Ed.%29-3.19.6.4.zip
+vault_pack_url=https://mediafilez.forgecdn.net/files/7354/646/Vault%20Hunters%20Official%20Pack%20%283rd%20Ed.%29-3.20.2.zip
