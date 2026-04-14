@@ -154,7 +154,9 @@
       "type": "run_gradle_tasks",
       "tasks": [
         "wrapper",
-        "genIntellijRuns"
+        "genIntellijRuns",
+        "updateVHJarVersion",
+        "updateVaultConfigs"
       ]
     },
     {
