@@ -118,10 +118,6 @@
       "destination": "settings.gradle"
     },
     {
-      "template": "vault-configs.gradle.ft",
-      "destination": "vault-configs.gradle"
-    },
-    {
       "template": "gradle.properties.ft",
       "destination": "gradle.properties"
     },
