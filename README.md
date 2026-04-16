@@ -18,9 +18,7 @@ You can set it up easily in IntelliJ by adding a remote repository in Minecraft 
 1. Create new project  
    <img width="569" height="770" alt="obrazek" src="https://github.com/user-attachments/assets/2dbc93b0-0a46-4586-ad89-aac7bc39669f" />
 2. Wait until project setup finishes
-3. run `getVaultConfigs` gradle task to get vault configs  
-   <img width="394" height="444" alt="obrazek" src="https://github.com/user-attachments/assets/60d70675-86e7-4e61-b054-9e2865b80f5f" />
-4. Launch the game with `runClient` task or build the jar with `build` task
+3. Launch the game with `runClient` task or build the jar with `build` task
 
 
 ### MixinExtras
@@ -31,3 +29,12 @@ implementation(jarJar("io.github.llamalad7:mixinextras-forge:0.4.1")) {
 }
  ```
 in `build.gradle` to use MixinExtras annotations
+
+
+## Updating to newer vh version
+- tasks mentioned here are under the vh-addon-dev group
+
+1. run the `updateVHJarVersion` task to update to new jar  
+2. run the `updateVaultConfigs` to update to new configs  
+   2.1. if there are still errors after updating configs try deleting them by using the `deleteVaultConfigs` and running the `updateVaultConfigs` task again
+
