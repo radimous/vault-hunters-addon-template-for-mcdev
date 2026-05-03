@@ -135,6 +135,7 @@ dependencies {
 
     // speed (optional)
     runtimeOnly fg.deobf("curse.maven:lazy-dfu-forge-460819:3544496") // load times
+    runtimeOnly fg.deobf("curse.maven:modernfix-790626:5399365") // load times
     runtimeOnly fg.deobf("curse.maven:ksyxis-537533:6174567") // don't load 441
 
 
